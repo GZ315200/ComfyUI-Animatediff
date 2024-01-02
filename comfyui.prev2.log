@@ -1,0 +1,42 @@
+** ComfyUI startup time: 2024-01-02 09:17:16.329669
+** Platform: Darwin
+** Python version: 3.11.5 (main, Sep 11 2023, 08:31:25) [Clang 14.0.6 ]
+** Python executable: /Users/gygesm/miniconda3/bin/python
+** Log path: /Users/gygesm/code/ComfyUI/comfyui.log
+
+Prestartup times for custom nodes:
+   0.0 seconds: /Users/gygesm/code/ComfyUI/custom_nodes/ComfyUI-Manager
+
+Total VRAM 18432 MB, total RAM 18432 MB
+Forcing FP16.
+Set vram state to: SHARED
+Device: mps
+VAE dtype: torch.float32
+Using sub quadratic optimization for cross attention, if you have memory or speed issues try using: --use-split-cross-attention
+/Users/gygesm/miniconda3/lib/python3.11/site-packages/transformers/utils/generic.py:441: UserWarning: torch.utils._pytree._register_pytree_node is deprecated. Please use torch.utils._pytree.register_pytree_node instead.
+  _torch_pytree._register_pytree_node(
+### Loading: ComfyUI-Manager (V1.18)
+### ComfyUI Revision: 1868 [d1f3637a] | Released on '2023-12-31'
+FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
+[34mFizzleDorf Custom Nodes: [92mLoaded[0m
+[VideoHelperSuite] - [0;33mWARNING[0m - Failed to import imageio_ffmpeg
+[VideoHelperSuite] - [0;31mERROR[0m - No valid ffmpeg found.
+
+Import times for custom nodes:
+   0.0 seconds: /Users/gygesm/code/ComfyUI/custom_nodes/ComfyUI-AnimateDiff-Evolved
+   0.1 seconds: /Users/gygesm/code/ComfyUI/custom_nodes/ComfyUI-VideoHelperSuite
+   0.1 seconds: /Users/gygesm/code/ComfyUI/custom_nodes/ComfyUI-Manager
+   0.1 seconds: /Users/gygesm/code/ComfyUI/custom_nodes/ComfyUI_FizzNodes
+
+Starting server
+
+To see the GUI go to: http://127.0.0.1:8188
+[ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+[ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
+[ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+[ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+
+Stopped server

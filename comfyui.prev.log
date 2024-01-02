@@ -1,0 +1,1618 @@
+** ComfyUI startup time: 2024-01-02 09:32:36.966940
+** Platform: Darwin
+** Python version: 3.11.5 (main, Sep 11 2023, 08:31:25) [Clang 14.0.6 ]
+** Python executable: /Users/gygesm/miniconda3/bin/python
+** Log path: /Users/gygesm/code/ComfyUI/comfyui.log
+
+Prestartup times for custom nodes:
+   0.1 seconds: /Users/gygesm/code/ComfyUI/custom_nodes/ComfyUI-Manager
+
+Total VRAM 18432 MB, total RAM 18432 MB
+Forcing FP16.
+Set vram state to: SHARED
+Device: mps
+VAE dtype: torch.float32
+Using sub quadratic optimization for cross attention, if you have memory or speed issues try using: --use-split-cross-attention
+/Users/gygesm/miniconda3/lib/python3.11/site-packages/transformers/utils/generic.py:441: UserWarning: torch.utils._pytree._register_pytree_node is deprecated. Please use torch.utils._pytree.register_pytree_node instead.
+  _torch_pytree._register_pytree_node(
+### Loading: ComfyUI-Manager (V1.18)
+### ComfyUI Revision: 1868 [d1f3637a] | Released on '2023-12-31'
+FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+FETCH DATA from: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
+[34mFizzleDorf Custom Nodes: [92mLoaded[0m
+[ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/custom-node-list.json
+[ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/alter-list.json
+[ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/model-list.json
+[ComfyUI-Manager] default cache updated: https://raw.githubusercontent.com/ltdrdata/ComfyUI-Manager/main/extension-node-map.json
+
+Import times for custom nodes:
+   0.0 seconds: /Users/gygesm/code/ComfyUI/custom_nodes/ComfyUI-AnimateDiff-Evolved
+   0.1 seconds: /Users/gygesm/code/ComfyUI/custom_nodes/ComfyUI-Manager
+   0.2 seconds: /Users/gygesm/code/ComfyUI/custom_nodes/ComfyUI_FizzNodes
+  10.5 seconds: /Users/gygesm/code/ComfyUI/custom_nodes/ComfyUI-VideoHelperSuite
+
+Starting server
+
+To see the GUI go to: http://127.0.0.1:8188
+FETCH DATA from: /Users/gygesm/code/ComfyUI/custom_nodes/ComfyUI-Manager/extension-node-map.json
+got prompt
+model_type EPS
+adm 0
+Using split attention in VAE
+Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+Using split attention in VAE
+missing {'cond_stage_model.clip_l.logit_scale', 'cond_stage_model.clip_l.text_projection'}
+left over keys: dict_keys(['cond_stage_model.clip_l.transformer.text_model.embeddings.position_ids'])
+[AnimateDiffEvo] - [0;32mINFO[0m - Loading motion module mm_sd_v15_v2.ckpt
+/Users/gygesm/code/ComfyUI/custom_nodes/ComfyUI_FizzNodes/BatchFuncs.py:128: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise in a future error of pandas. Value '' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  cur_prompt_series[f] = ''
+/Users/gygesm/code/ComfyUI/custom_nodes/ComfyUI_FizzNodes/BatchFuncs.py:129: FutureWarning: Setting an item of incompatible dtype is deprecated and will raise in a future error of pandas. Value '' has dtype incompatible with float64, please explicitly cast to a compatible dtype first.
+  nxt_prompt_series[f] = ''
+
+ Max Frames:  110 
+ frame index:  0 
+ Current Prompt:  25 year old woman, t-shirt Spring, flowers, smile 
+ Next Prompt:  25 year old woman, t-shirt Spring, flowers, smile 
+ Strength :  1.0 
+
+
+ Max Frames:  110 
+ frame index:  1 
+ Current Prompt:  25 year old woman, t-shirt Spring, flowers, smile 
+ Next Prompt:  25 year old woman, t-shirt Spring, flowers, smile 
+ Strength :  0.95 
+
+
+ Max Frames:  110 
+ frame index:  2 
+ Current Prompt:  25 year old woman, t-shirt Spring, flowers, smile 
+ Next Prompt:  25 year old woman, t-shirt Spring, flowers, smile 
+ Strength :  0.9 
+
+
+ Max Frames:  110 
+ frame index:  3 
+ Current Prompt:  25 year old woman, t-shirt Spring, flowers, smile 
+ Next Prompt:  25 year old woman, t-shirt Spring, flowers, smile 
+ Strength :  0.85 
+
+
+ Max Frames:  110 
+ frame index:  4 
+ Current Prompt:  25 year old woman, t-shirt Spring, flowers, smile 
+ Next Prompt:  25 year old woman, t-shirt Spring, flowers, smile 
+ Strength :  0.8 
+
+
+ Max Frames:  110 
+ frame index:  5 
+ Current Prompt:  25 year old woman, t-shirt Spring, flowers, smile 
+ Next Prompt:  25 year old woman, t-shirt Spring, flowers, smile 
+ Strength :  0.75 
+
+
+ Max Frames:  110 
+ frame index:  6 
+ Current Prompt:  25 year old woman, t-shirt Spring, flowers, smile 
+ Next Prompt:  25 year old woman, t-shirt Spring, flowers, smile 
+ Strength :  0.7 
+
+
+ Max Frames:  110 
+ frame index:  7 
+ Current Prompt:  25 year old woman, t-shirt Spring, flowers, smile 
+ Next Prompt:  25 year old woman, t-shirt Spring, flowers, smile 
+ Strength :  0.6499999999999999 
+
+
+ Max Frames:  110 
+ frame index:  8 
+ Current Prompt:  25 year old woman, t-shirt Spring, flowers, smile 
+ Next Prompt:  25 year old woman, t-shirt Spring, flowers, smile 
+ Strength :  0.6 
+
+
+ Max Frames:  110 
+ frame index:  9 
+ Current Prompt:  25 year old woman, t-shirt Spring, flowers, smile 
+ Next Prompt:  25 year old woman, t-shirt Spring, flowers, smile 
+ Strength :  0.55 
+
+
+ Max Frames:  110 
+ frame index:  10 
+ Current Prompt:  25 year old woman, t-shirt Spring, flowers, smile 
+ Next Prompt:  25 year old woman, t-shirt Spring, flowers, smile 
+ Strength :  0.5 
+
+
+ Max Frames:  110 
+ frame index:  11 
+ Current Prompt:  25 year old woman, t-shirt Spring, flowers, smile 
+ Next Prompt:  25 year old woman, t-shirt Spring, flowers, smile 
+ Strength :  0.44999999999999996 
+
+
+ Max Frames:  110 
+ frame index:  12 
+ Current Prompt:  25 year old woman, t-shirt Spring, flowers, smile 
+ Next Prompt:  25 year old woman, t-shirt Spring, flowers, smile 
+ Strength :  0.3999999999999999 
+
+
+ Max Frames:  110 
+ frame index:  13 
+ Current Prompt:  25 year old woman, t-shirt Spring, flowers, smile 
+ Next Prompt:  25 year old woman, t-shirt Spring, flowers, smile 
+ Strength :  0.35 
+
+
+ Max Frames:  110 
+ frame index:  14 
+ Current Prompt:  25 year old woman, t-shirt Spring, flowers, smile 
+ Next Prompt:  25 year old woman, t-shirt Spring, flowers, smile 
+ Strength :  0.29999999999999993 
+
+
+ Max Frames:  110 
+ frame index:  15 
+ Current Prompt:  25 year old woman, t-shirt Spring, flowers, smile 
+ Next Prompt:  25 year old woman, t-shirt Spring, flowers, smile 
+ Strength :  0.25 
+
+
+ Max Frames:  110 
+ frame index:  16 
+ Current Prompt:  25 year old woman, t-shirt Spring, flowers, smile 
+ Next Prompt:  25 year old woman, t-shirt Spring, flowers, smile 
+ Strength :  0.19999999999999996 
+
+
+ Max Frames:  110 
+ frame index:  17 
+ Current Prompt:  25 year old woman, t-shirt Spring, flowers, smile 
+ Next Prompt:  25 year old woman, t-shirt Spring, flowers, smile 
+ Strength :  0.1499999999999999 
+
+
+ Max Frames:  110 
+ frame index:  18 
+ Current Prompt:  25 year old woman, t-shirt Spring, flowers, smile 
+ Next Prompt:  25 year old woman, t-shirt Spring, flowers, smile 
+ Strength :  0.09999999999999998 
+
+
+ Max Frames:  110 
+ frame index:  19 
+ Current Prompt:  25 year old woman, t-shirt Spring, flowers, smile 
+ Next Prompt:  25 year old woman, t-shirt Spring, flowers, smile 
+ Strength :  0.04999999999999993 
+
+
+ Max Frames:  110 
+ frame index:  20 
+ Current Prompt:  25 year old woman, t-shirt Spring, flowers, smile 
+ Next Prompt:  25 year old woman, t-shirt Summer, sun, happy, windy 
+ Strength :  1.0 
+
+
+ Max Frames:  110 
+ frame index:  21 
+ Current Prompt:  25 year old woman, t-shirt Spring, flowers, smile 
+ Next Prompt:  25 year old woman, t-shirt Summer, sun, happy, windy 
+ Strength :  0.9 
+
+
+ Max Frames:  110 
+ frame index:  22 
+ Current Prompt:  25 year old woman, t-shirt Spring, flowers, smile 
+ Next Prompt:  25 year old woman, t-shirt Summer, sun, happy, windy 
+ Strength :  0.8 
+
+
+ Max Frames:  110 
+ frame index:  23 
+ Current Prompt:  25 year old woman, t-shirt Spring, flowers, smile 
+ Next Prompt:  25 year old woman, t-shirt Summer, sun, happy, windy 
+ Strength :  0.7 
+
+
+ Max Frames:  110 
+ frame index:  24 
+ Current Prompt:  25 year old woman, t-shirt Spring, flowers, smile 
+ Next Prompt:  25 year old woman, t-shirt Summer, sun, happy, windy 
+ Strength :  0.6 
+
+
+ Max Frames:  110 
+ frame index:  25 
+ Current Prompt:  25 year old woman, t-shirt Spring, flowers, smile 
+ Next Prompt:  25 year old woman, t-shirt Summer, sun, happy, windy 
+ Strength :  0.5 
+
+
+ Max Frames:  110 
+ frame index:  26 
+ Current Prompt:  25 year old woman, t-shirt Spring, flowers, smile 
+ Next Prompt:  25 year old woman, t-shirt Summer, sun, happy, windy 
+ Strength :  0.3999999999999999 
+
+
+ Max Frames:  110 
+ frame index:  27 
+ Current Prompt:  25 year old woman, t-shirt Spring, flowers, smile 
+ Next Prompt:  25 year old woman, t-shirt Summer, sun, happy, windy 
+ Strength :  0.29999999999999993 
+
+
+ Max Frames:  110 
+ frame index:  28 
+ Current Prompt:  25 year old woman, t-shirt Spring, flowers, smile 
+ Next Prompt:  25 year old woman, t-shirt Summer, sun, happy, windy 
+ Strength :  0.19999999999999996 
+
+
+ Max Frames:  110 
+ frame index:  29 
+ Current Prompt:  25 year old woman, t-shirt Spring, flowers, smile 
+ Next Prompt:  25 year old woman, t-shirt Summer, sun, happy, windy 
+ Strength :  0.09999999999999998 
+
+
+ Max Frames:  110 
+ frame index:  30 
+ Current Prompt:  25 year old woman, t-shirt Summer, sun, happy, windy 
+ Next Prompt:  25 year old woman, t-shirt Summer, sun, happy, windy 
+ Strength :  1.0 
+
+
+ Max Frames:  110 
+ frame index:  31 
+ Current Prompt:  25 year old woman, t-shirt Summer, sun, happy, windy 
+ Next Prompt:  25 year old woman, t-shirt Summer, sun, happy, windy 
+ Strength :  0.95 
+
+
+ Max Frames:  110 
+ frame index:  32 
+ Current Prompt:  25 year old woman, t-shirt Summer, sun, happy, windy 
+ Next Prompt:  25 year old woman, t-shirt Summer, sun, happy, windy 
+ Strength :  0.9 
+
+
+ Max Frames:  110 
+ frame index:  33 
+ Current Prompt:  25 year old woman, t-shirt Summer, sun, happy, windy 
+ Next Prompt:  25 year old woman, t-shirt Summer, sun, happy, windy 
+ Strength :  0.85 
+
+
+ Max Frames:  110 
+ frame index:  34 
+ Current Prompt:  25 year old woman, t-shirt Summer, sun, happy, windy 
+ Next Prompt:  25 year old woman, t-shirt Summer, sun, happy, windy 
+ Strength :  0.8 
+
+
+ Max Frames:  110 
+ frame index:  35 
+ Current Prompt:  25 year old woman, t-shirt Summer, sun, happy, windy 
+ Next Prompt:  25 year old woman, t-shirt Summer, sun, happy, windy 
+ Strength :  0.75 
+
+
+ Max Frames:  110 
+ frame index:  36 
+ Current Prompt:  25 year old woman, t-shirt Summer, sun, happy, windy 
+ Next Prompt:  25 year old woman, t-shirt Summer, sun, happy, windy 
+ Strength :  0.7 
+
+
+ Max Frames:  110 
+ frame index:  37 
+ Current Prompt:  25 year old woman, t-shirt Summer, sun, happy, windy 
+ Next Prompt:  25 year old woman, t-shirt Summer, sun, happy, windy 
+ Strength :  0.6499999999999999 
+
+
+ Max Frames:  110 
+ frame index:  38 
+ Current Prompt:  25 year old woman, t-shirt Summer, sun, happy, windy 
+ Next Prompt:  25 year old woman, t-shirt Summer, sun, happy, windy 
+ Strength :  0.6 
+
+
+ Max Frames:  110 
+ frame index:  39 
+ Current Prompt:  25 year old woman, t-shirt Summer, sun, happy, windy 
+ Next Prompt:  25 year old woman, t-shirt Summer, sun, happy, windy 
+ Strength :  0.55 
+
+
+ Max Frames:  110 
+ frame index:  40 
+ Current Prompt:  25 year old woman, t-shirt Summer, sun, happy, windy 
+ Next Prompt:  25 year old woman, t-shirt Summer, sun, happy, windy 
+ Strength :  0.5 
+
+
+ Max Frames:  110 
+ frame index:  41 
+ Current Prompt:  25 year old woman, t-shirt Summer, sun, happy, windy 
+ Next Prompt:  25 year old woman, t-shirt Summer, sun, happy, windy 
+ Strength :  0.44999999999999996 
+
+
+ Max Frames:  110 
+ frame index:  42 
+ Current Prompt:  25 year old woman, t-shirt Summer, sun, happy, windy 
+ Next Prompt:  25 year old woman, t-shirt Summer, sun, happy, windy 
+ Strength :  0.3999999999999999 
+
+
+ Max Frames:  110 
+ frame index:  43 
+ Current Prompt:  25 year old woman, t-shirt Summer, sun, happy, windy 
+ Next Prompt:  25 year old woman, t-shirt Summer, sun, happy, windy 
+ Strength :  0.35 
+
+
+ Max Frames:  110 
+ frame index:  44 
+ Current Prompt:  25 year old woman, t-shirt Summer, sun, happy, windy 
+ Next Prompt:  25 year old woman, t-shirt Summer, sun, happy, windy 
+ Strength :  0.29999999999999993 
+
+
+ Max Frames:  110 
+ frame index:  45 
+ Current Prompt:  25 year old woman, t-shirt Summer, sun, happy, windy 
+ Next Prompt:  25 year old woman, t-shirt Summer, sun, happy, windy 
+ Strength :  0.25 
+
+
+ Max Frames:  110 
+ frame index:  46 
+ Current Prompt:  25 year old woman, t-shirt Summer, sun, happy, windy 
+ Next Prompt:  25 year old woman, t-shirt Summer, sun, happy, windy 
+ Strength :  0.19999999999999996 
+
+
+ Max Frames:  110 
+ frame index:  47 
+ Current Prompt:  25 year old woman, t-shirt Summer, sun, happy, windy 
+ Next Prompt:  25 year old woman, t-shirt Summer, sun, happy, windy 
+ Strength :  0.1499999999999999 
+
+
+ Max Frames:  110 
+ frame index:  48 
+ Current Prompt:  25 year old woman, t-shirt Summer, sun, happy, windy 
+ Next Prompt:  25 year old woman, t-shirt Summer, sun, happy, windy 
+ Strength :  0.09999999999999998 
+
+
+ Max Frames:  110 
+ frame index:  49 
+ Current Prompt:  25 year old woman, t-shirt Summer, sun, happy, windy 
+ Next Prompt:  25 year old woman, t-shirt Summer, sun, happy, windy 
+ Strength :  0.04999999999999993 
+
+
+ Max Frames:  110 
+ frame index:  50 
+ Current Prompt:  25 year old woman, t-shirt Summer, sun, happy, windy 
+ Next Prompt:  25 year old woman, t-shirt Autumn, yellow leaves, laugh 
+ Strength :  1.0 
+
+
+ Max Frames:  110 
+ frame index:  51 
+ Current Prompt:  25 year old woman, t-shirt Summer, sun, happy, windy 
+ Next Prompt:  25 year old woman, t-shirt Autumn, yellow leaves, laugh 
+ Strength :  0.9 
+
+
+ Max Frames:  110 
+ frame index:  52 
+ Current Prompt:  25 year old woman, t-shirt Summer, sun, happy, windy 
+ Next Prompt:  25 year old woman, t-shirt Autumn, yellow leaves, laugh 
+ Strength :  0.8 
+
+
+ Max Frames:  110 
+ frame index:  53 
+ Current Prompt:  25 year old woman, t-shirt Summer, sun, happy, windy 
+ Next Prompt:  25 year old woman, t-shirt Autumn, yellow leaves, laugh 
+ Strength :  0.7 
+
+
+ Max Frames:  110 
+ frame index:  54 
+ Current Prompt:  25 year old woman, t-shirt Summer, sun, happy, windy 
+ Next Prompt:  25 year old woman, t-shirt Autumn, yellow leaves, laugh 
+ Strength :  0.6 
+
+
+ Max Frames:  110 
+ frame index:  55 
+ Current Prompt:  25 year old woman, t-shirt Summer, sun, happy, windy 
+ Next Prompt:  25 year old woman, t-shirt Autumn, yellow leaves, laugh 
+ Strength :  0.5 
+
+
+ Max Frames:  110 
+ frame index:  56 
+ Current Prompt:  25 year old woman, t-shirt Summer, sun, happy, windy 
+ Next Prompt:  25 year old woman, t-shirt Autumn, yellow leaves, laugh 
+ Strength :  0.3999999999999999 
+
+
+ Max Frames:  110 
+ frame index:  57 
+ Current Prompt:  25 year old woman, t-shirt Summer, sun, happy, windy 
+ Next Prompt:  25 year old woman, t-shirt Autumn, yellow leaves, laugh 
+ Strength :  0.29999999999999993 
+
+
+ Max Frames:  110 
+ frame index:  58 
+ Current Prompt:  25 year old woman, t-shirt Summer, sun, happy, windy 
+ Next Prompt:  25 year old woman, t-shirt Autumn, yellow leaves, laugh 
+ Strength :  0.19999999999999996 
+
+
+ Max Frames:  110 
+ frame index:  59 
+ Current Prompt:  25 year old woman, t-shirt Summer, sun, happy, windy 
+ Next Prompt:  25 year old woman, t-shirt Autumn, yellow leaves, laugh 
+ Strength :  0.09999999999999998 
+
+
+ Max Frames:  110 
+ frame index:  60 
+ Current Prompt:  25 year old woman, t-shirt Autumn, yellow leaves, laugh 
+ Next Prompt:  25 year old woman, t-shirt Autumn, yellow leaves, laugh 
+ Strength :  1.0 
+
+
+ Max Frames:  110 
+ frame index:  61 
+ Current Prompt:  25 year old woman, t-shirt Autumn, yellow leaves, laugh 
+ Next Prompt:  25 year old woman, t-shirt Autumn, yellow leaves, laugh 
+ Strength :  0.95 
+
+
+ Max Frames:  110 
+ frame index:  62 
+ Current Prompt:  25 year old woman, t-shirt Autumn, yellow leaves, laugh 
+ Next Prompt:  25 year old woman, t-shirt Autumn, yellow leaves, laugh 
+ Strength :  0.9 
+
+
+ Max Frames:  110 
+ frame index:  63 
+ Current Prompt:  25 year old woman, t-shirt Autumn, yellow leaves, laugh 
+ Next Prompt:  25 year old woman, t-shirt Autumn, yellow leaves, laugh 
+ Strength :  0.85 
+
+
+ Max Frames:  110 
+ frame index:  64 
+ Current Prompt:  25 year old woman, t-shirt Autumn, yellow leaves, laugh 
+ Next Prompt:  25 year old woman, t-shirt Autumn, yellow leaves, laugh 
+ Strength :  0.8 
+
+
+ Max Frames:  110 
+ frame index:  65 
+ Current Prompt:  25 year old woman, t-shirt Autumn, yellow leaves, laugh 
+ Next Prompt:  25 year old woman, t-shirt Autumn, yellow leaves, laugh 
+ Strength :  0.75 
+
+
+ Max Frames:  110 
+ frame index:  66 
+ Current Prompt:  25 year old woman, t-shirt Autumn, yellow leaves, laugh 
+ Next Prompt:  25 year old woman, t-shirt Autumn, yellow leaves, laugh 
+ Strength :  0.7 
+
+
+ Max Frames:  110 
+ frame index:  67 
+ Current Prompt:  25 year old woman, t-shirt Autumn, yellow leaves, laugh 
+ Next Prompt:  25 year old woman, t-shirt Autumn, yellow leaves, laugh 
+ Strength :  0.6499999999999999 
+
+
+ Max Frames:  110 
+ frame index:  68 
+ Current Prompt:  25 year old woman, t-shirt Autumn, yellow leaves, laugh 
+ Next Prompt:  25 year old woman, t-shirt Autumn, yellow leaves, laugh 
+ Strength :  0.6 
+
+
+ Max Frames:  110 
+ frame index:  69 
+ Current Prompt:  25 year old woman, t-shirt Autumn, yellow leaves, laugh 
+ Next Prompt:  25 year old woman, t-shirt Autumn, yellow leaves, laugh 
+ Strength :  0.55 
+
+
+ Max Frames:  110 
+ frame index:  70 
+ Current Prompt:  25 year old woman, t-shirt Autumn, yellow leaves, laugh 
+ Next Prompt:  25 year old woman, t-shirt Autumn, yellow leaves, laugh 
+ Strength :  0.5 
+
+
+ Max Frames:  110 
+ frame index:  71 
+ Current Prompt:  25 year old woman, t-shirt Autumn, yellow leaves, laugh 
+ Next Prompt:  25 year old woman, t-shirt Autumn, yellow leaves, laugh 
+ Strength :  0.44999999999999996 
+
+
+ Max Frames:  110 
+ frame index:  72 
+ Current Prompt:  25 year old woman, t-shirt Autumn, yellow leaves, laugh 
+ Next Prompt:  25 year old woman, t-shirt Autumn, yellow leaves, laugh 
+ Strength :  0.3999999999999999 
+
+
+ Max Frames:  110 
+ frame index:  73 
+ Current Prompt:  25 year old woman, t-shirt Autumn, yellow leaves, laugh 
+ Next Prompt:  25 year old woman, t-shirt Autumn, yellow leaves, laugh 
+ Strength :  0.35 
+
+
+ Max Frames:  110 
+ frame index:  74 
+ Current Prompt:  25 year old woman, t-shirt Autumn, yellow leaves, laugh 
+ Next Prompt:  25 year old woman, t-shirt Autumn, yellow leaves, laugh 
+ Strength :  0.29999999999999993 
+
+
+ Max Frames:  110 
+ frame index:  75 
+ Current Prompt:  25 year old woman, t-shirt Autumn, yellow leaves, laugh 
+ Next Prompt:  25 year old woman, t-shirt Autumn, yellow leaves, laugh 
+ Strength :  0.25 
+
+
+ Max Frames:  110 
+ frame index:  76 
+ Current Prompt:  25 year old woman, t-shirt Autumn, yellow leaves, laugh 
+ Next Prompt:  25 year old woman, t-shirt Autumn, yellow leaves, laugh 
+ Strength :  0.19999999999999996 
+
+
+ Max Frames:  110 
+ frame index:  77 
+ Current Prompt:  25 year old woman, t-shirt Autumn, yellow leaves, laugh 
+ Next Prompt:  25 year old woman, t-shirt Autumn, yellow leaves, laugh 
+ Strength :  0.1499999999999999 
+
+
+ Max Frames:  110 
+ frame index:  78 
+ Current Prompt:  25 year old woman, t-shirt Autumn, yellow leaves, laugh 
+ Next Prompt:  25 year old woman, t-shirt Autumn, yellow leaves, laugh 
+ Strength :  0.09999999999999998 
+
+
+ Max Frames:  110 
+ frame index:  79 
+ Current Prompt:  25 year old woman, t-shirt Autumn, yellow leaves, laugh 
+ Next Prompt:  25 year old woman, t-shirt Autumn, yellow leaves, laugh 
+ Strength :  0.04999999999999993 
+
+
+ Max Frames:  110 
+ frame index:  80 
+ Current Prompt:  25 year old woman, t-shirt Autumn, yellow leaves, laugh 
+ Next Prompt:  25 year old woman, t-shirt Winter, wind, snow, smile, seductive 
+ Strength :  1.0 
+
+
+ Max Frames:  110 
+ frame index:  81 
+ Current Prompt:  25 year old woman, t-shirt Autumn, yellow leaves, laugh 
+ Next Prompt:  25 year old woman, t-shirt Winter, wind, snow, smile, seductive 
+ Strength :  0.9 
+
+
+ Max Frames:  110 
+ frame index:  82 
+ Current Prompt:  25 year old woman, t-shirt Autumn, yellow leaves, laugh 
+ Next Prompt:  25 year old woman, t-shirt Winter, wind, snow, smile, seductive 
+ Strength :  0.8 
+
+
+ Max Frames:  110 
+ frame index:  83 
+ Current Prompt:  25 year old woman, t-shirt Autumn, yellow leaves, laugh 
+ Next Prompt:  25 year old woman, t-shirt Winter, wind, snow, smile, seductive 
+ Strength :  0.7 
+
+
+ Max Frames:  110 
+ frame index:  84 
+ Current Prompt:  25 year old woman, t-shirt Autumn, yellow leaves, laugh 
+ Next Prompt:  25 year old woman, t-shirt Winter, wind, snow, smile, seductive 
+ Strength :  0.6 
+
+
+ Max Frames:  110 
+ frame index:  85 
+ Current Prompt:  25 year old woman, t-shirt Autumn, yellow leaves, laugh 
+ Next Prompt:  25 year old woman, t-shirt Winter, wind, snow, smile, seductive 
+ Strength :  0.5 
+
+
+ Max Frames:  110 
+ frame index:  86 
+ Current Prompt:  25 year old woman, t-shirt Autumn, yellow leaves, laugh 
+ Next Prompt:  25 year old woman, t-shirt Winter, wind, snow, smile, seductive 
+ Strength :  0.3999999999999999 
+
+
+ Max Frames:  110 
+ frame index:  87 
+ Current Prompt:  25 year old woman, t-shirt Autumn, yellow leaves, laugh 
+ Next Prompt:  25 year old woman, t-shirt Winter, wind, snow, smile, seductive 
+ Strength :  0.29999999999999993 
+
+
+ Max Frames:  110 
+ frame index:  88 
+ Current Prompt:  25 year old woman, t-shirt Autumn, yellow leaves, laugh 
+ Next Prompt:  25 year old woman, t-shirt Winter, wind, snow, smile, seductive 
+ Strength :  0.19999999999999996 
+
+
+ Max Frames:  110 
+ frame index:  89 
+ Current Prompt:  25 year old woman, t-shirt Autumn, yellow leaves, laugh 
+ Next Prompt:  25 year old woman, t-shirt Winter, wind, snow, smile, seductive 
+ Strength :  0.09999999999999998 
+
+
+ Max Frames:  110 
+ frame index:  90 
+ Current Prompt:  25 year old woman, t-shirt Winter, wind, snow, smile, seductive 
+ Next Prompt:  25 year old woman, t-shirt Winter, wind snow, smile, seductive 
+ Strength :  1.0 
+
+
+ Max Frames:  110 
+ frame index:  91 
+ Current Prompt:  25 year old woman, t-shirt Winter, wind, snow, smile, seductive 
+ Next Prompt:  25 year old woman, t-shirt Winter, wind snow, smile, seductive 
+ Strength :  0.95 
+
+
+ Max Frames:  110 
+ frame index:  92 
+ Current Prompt:  25 year old woman, t-shirt Winter, wind, snow, smile, seductive 
+ Next Prompt:  25 year old woman, t-shirt Winter, wind snow, smile, seductive 
+ Strength :  0.9 
+
+
+ Max Frames:  110 
+ frame index:  93 
+ Current Prompt:  25 year old woman, t-shirt Winter, wind, snow, smile, seductive 
+ Next Prompt:  25 year old woman, t-shirt Winter, wind snow, smile, seductive 
+ Strength :  0.85 
+
+
+ Max Frames:  110 
+ frame index:  94 
+ Current Prompt:  25 year old woman, t-shirt Winter, wind, snow, smile, seductive 
+ Next Prompt:  25 year old woman, t-shirt Winter, wind snow, smile, seductive 
+ Strength :  0.8 
+
+
+ Max Frames:  110 
+ frame index:  95 
+ Current Prompt:  25 year old woman, t-shirt Winter, wind, snow, smile, seductive 
+ Next Prompt:  25 year old woman, t-shirt Winter, wind snow, smile, seductive 
+ Strength :  0.75 
+
+
+ Max Frames:  110 
+ frame index:  96 
+ Current Prompt:  25 year old woman, t-shirt Winter, wind, snow, smile, seductive 
+ Next Prompt:  25 year old woman, t-shirt Winter, wind snow, smile, seductive 
+ Strength :  0.7 
+
+
+ Max Frames:  110 
+ frame index:  97 
+ Current Prompt:  25 year old woman, t-shirt Winter, wind, snow, smile, seductive 
+ Next Prompt:  25 year old woman, t-shirt Winter, wind snow, smile, seductive 
+ Strength :  0.6499999999999999 
+
+
+ Max Frames:  110 
+ frame index:  98 
+ Current Prompt:  25 year old woman, t-shirt Winter, wind, snow, smile, seductive 
+ Next Prompt:  25 year old woman, t-shirt Winter, wind snow, smile, seductive 
+ Strength :  0.6 
+
+
+ Max Frames:  110 
+ frame index:  99 
+ Current Prompt:  25 year old woman, t-shirt Winter, wind, snow, smile, seductive 
+ Next Prompt:  25 year old woman, t-shirt Winter, wind snow, smile, seductive 
+ Strength :  0.55 
+
+
+ Max Frames:  110 
+ frame index:  100 
+ Current Prompt:  25 year old woman, t-shirt Winter, wind, snow, smile, seductive 
+ Next Prompt:  25 year old woman, t-shirt Winter, wind snow, smile, seductive 
+ Strength :  0.5 
+
+
+ Max Frames:  110 
+ frame index:  101 
+ Current Prompt:  25 year old woman, t-shirt Winter, wind, snow, smile, seductive 
+ Next Prompt:  25 year old woman, t-shirt Winter, wind snow, smile, seductive 
+ Strength :  0.44999999999999996 
+
+
+ Max Frames:  110 
+ frame index:  102 
+ Current Prompt:  25 year old woman, t-shirt Winter, wind, snow, smile, seductive 
+ Next Prompt:  25 year old woman, t-shirt Winter, wind snow, smile, seductive 
+ Strength :  0.3999999999999999 
+
+
+ Max Frames:  110 
+ frame index:  103 
+ Current Prompt:  25 year old woman, t-shirt Winter, wind, snow, smile, seductive 
+ Next Prompt:  25 year old woman, t-shirt Winter, wind snow, smile, seductive 
+ Strength :  0.35 
+
+
+ Max Frames:  110 
+ frame index:  104 
+ Current Prompt:  25 year old woman, t-shirt Winter, wind, snow, smile, seductive 
+ Next Prompt:  25 year old woman, t-shirt Winter, wind snow, smile, seductive 
+ Strength :  0.29999999999999993 
+
+
+ Max Frames:  110 
+ frame index:  105 
+ Current Prompt:  25 year old woman, t-shirt Winter, wind, snow, smile, seductive 
+ Next Prompt:  25 year old woman, t-shirt Winter, wind snow, smile, seductive 
+ Strength :  0.25 
+
+
+ Max Frames:  110 
+ frame index:  106 
+ Current Prompt:  25 year old woman, t-shirt Winter, wind, snow, smile, seductive 
+ Next Prompt:  25 year old woman, t-shirt Winter, wind snow, smile, seductive 
+ Strength :  0.19999999999999996 
+
+
+ Max Frames:  110 
+ frame index:  107 
+ Current Prompt:  25 year old woman, t-shirt Winter, wind, snow, smile, seductive 
+ Next Prompt:  25 year old woman, t-shirt Winter, wind snow, smile, seductive 
+ Strength :  0.1499999999999999 
+
+
+ Max Frames:  110 
+ frame index:  108 
+ Current Prompt:  25 year old woman, t-shirt Winter, wind, snow, smile, seductive 
+ Next Prompt:  25 year old woman, t-shirt Winter, wind snow, smile, seductive 
+ Strength :  0.09999999999999998 
+
+
+ Max Frames:  110 
+ frame index:  109 
+ Current Prompt:  25 year old woman, t-shirt Winter, wind, snow, smile, seductive 
+ Next Prompt:  25 year old woman, t-shirt Winter, wind snow, smile, seductive 
+ Strength :  0.04999999999999993 
+
+Requested to load SD1ClipModel
+Loading 1 new model
+
+ Max Frames:  110 
+ frame index:  0 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  1.0 
+
+
+ Max Frames:  110 
+ frame index:  1 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.95 
+
+
+ Max Frames:  110 
+ frame index:  2 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.9 
+
+
+ Max Frames:  110 
+ frame index:  3 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.85 
+
+
+ Max Frames:  110 
+ frame index:  4 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.8 
+
+
+ Max Frames:  110 
+ frame index:  5 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.75 
+
+
+ Max Frames:  110 
+ frame index:  6 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.7 
+
+
+ Max Frames:  110 
+ frame index:  7 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.6499999999999999 
+
+
+ Max Frames:  110 
+ frame index:  8 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.6 
+
+
+ Max Frames:  110 
+ frame index:  9 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.55 
+
+
+ Max Frames:  110 
+ frame index:  10 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.5 
+
+
+ Max Frames:  110 
+ frame index:  11 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.44999999999999996 
+
+
+ Max Frames:  110 
+ frame index:  12 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.3999999999999999 
+
+
+ Max Frames:  110 
+ frame index:  13 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.35 
+
+
+ Max Frames:  110 
+ frame index:  14 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.29999999999999993 
+
+
+ Max Frames:  110 
+ frame index:  15 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.25 
+
+
+ Max Frames:  110 
+ frame index:  16 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.19999999999999996 
+
+
+ Max Frames:  110 
+ frame index:  17 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.1499999999999999 
+
+
+ Max Frames:  110 
+ frame index:  18 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.09999999999999998 
+
+
+ Max Frames:  110 
+ frame index:  19 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.04999999999999993 
+
+
+ Max Frames:  110 
+ frame index:  20 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  1.0 
+
+
+ Max Frames:  110 
+ frame index:  21 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.9 
+
+
+ Max Frames:  110 
+ frame index:  22 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.8 
+
+
+ Max Frames:  110 
+ frame index:  23 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.7 
+
+
+ Max Frames:  110 
+ frame index:  24 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.6 
+
+
+ Max Frames:  110 
+ frame index:  25 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.5 
+
+
+ Max Frames:  110 
+ frame index:  26 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.3999999999999999 
+
+
+ Max Frames:  110 
+ frame index:  27 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.29999999999999993 
+
+
+ Max Frames:  110 
+ frame index:  28 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.19999999999999996 
+
+
+ Max Frames:  110 
+ frame index:  29 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.09999999999999998 
+
+
+ Max Frames:  110 
+ frame index:  30 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  1.0 
+
+
+ Max Frames:  110 
+ frame index:  31 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.95 
+
+
+ Max Frames:  110 
+ frame index:  32 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.9 
+
+
+ Max Frames:  110 
+ frame index:  33 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.85 
+
+
+ Max Frames:  110 
+ frame index:  34 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.8 
+
+
+ Max Frames:  110 
+ frame index:  35 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.75 
+
+
+ Max Frames:  110 
+ frame index:  36 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.7 
+
+
+ Max Frames:  110 
+ frame index:  37 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.6499999999999999 
+
+
+ Max Frames:  110 
+ frame index:  38 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.6 
+
+
+ Max Frames:  110 
+ frame index:  39 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.55 
+
+
+ Max Frames:  110 
+ frame index:  40 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.5 
+
+
+ Max Frames:  110 
+ frame index:  41 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.44999999999999996 
+
+
+ Max Frames:  110 
+ frame index:  42 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.3999999999999999 
+
+
+ Max Frames:  110 
+ frame index:  43 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.35 
+
+
+ Max Frames:  110 
+ frame index:  44 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.29999999999999993 
+
+
+ Max Frames:  110 
+ frame index:  45 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.25 
+
+
+ Max Frames:  110 
+ frame index:  46 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.19999999999999996 
+
+
+ Max Frames:  110 
+ frame index:  47 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.1499999999999999 
+
+
+ Max Frames:  110 
+ frame index:  48 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.09999999999999998 
+
+
+ Max Frames:  110 
+ frame index:  49 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.04999999999999993 
+
+
+ Max Frames:  110 
+ frame index:  50 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  1.0 
+
+
+ Max Frames:  110 
+ frame index:  51 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.9 
+
+
+ Max Frames:  110 
+ frame index:  52 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.8 
+
+
+ Max Frames:  110 
+ frame index:  53 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.7 
+
+
+ Max Frames:  110 
+ frame index:  54 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.6 
+
+
+ Max Frames:  110 
+ frame index:  55 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.5 
+
+
+ Max Frames:  110 
+ frame index:  56 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.3999999999999999 
+
+
+ Max Frames:  110 
+ frame index:  57 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.29999999999999993 
+
+
+ Max Frames:  110 
+ frame index:  58 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.19999999999999996 
+
+
+ Max Frames:  110 
+ frame index:  59 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.09999999999999998 
+
+
+ Max Frames:  110 
+ frame index:  60 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  1.0 
+
+
+ Max Frames:  110 
+ frame index:  61 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.95 
+
+
+ Max Frames:  110 
+ frame index:  62 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.9 
+
+
+ Max Frames:  110 
+ frame index:  63 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.85 
+
+
+ Max Frames:  110 
+ frame index:  64 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.8 
+
+
+ Max Frames:  110 
+ frame index:  65 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.75 
+
+
+ Max Frames:  110 
+ frame index:  66 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.7 
+
+
+ Max Frames:  110 
+ frame index:  67 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.6499999999999999 
+
+
+ Max Frames:  110 
+ frame index:  68 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.6 
+
+
+ Max Frames:  110 
+ frame index:  69 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.55 
+
+
+ Max Frames:  110 
+ frame index:  70 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.5 
+
+
+ Max Frames:  110 
+ frame index:  71 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.44999999999999996 
+
+
+ Max Frames:  110 
+ frame index:  72 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.3999999999999999 
+
+
+ Max Frames:  110 
+ frame index:  73 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.35 
+
+
+ Max Frames:  110 
+ frame index:  74 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.29999999999999993 
+
+
+ Max Frames:  110 
+ frame index:  75 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.25 
+
+
+ Max Frames:  110 
+ frame index:  76 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.19999999999999996 
+
+
+ Max Frames:  110 
+ frame index:  77 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.1499999999999999 
+
+
+ Max Frames:  110 
+ frame index:  78 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.09999999999999998 
+
+
+ Max Frames:  110 
+ frame index:  79 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.04999999999999993 
+
+
+ Max Frames:  110 
+ frame index:  80 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  1.0 
+
+
+ Max Frames:  110 
+ frame index:  81 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.9 
+
+
+ Max Frames:  110 
+ frame index:  82 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.8 
+
+
+ Max Frames:  110 
+ frame index:  83 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.7 
+
+
+ Max Frames:  110 
+ frame index:  84 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.6 
+
+
+ Max Frames:  110 
+ frame index:  85 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.5 
+
+
+ Max Frames:  110 
+ frame index:  86 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.3999999999999999 
+
+
+ Max Frames:  110 
+ frame index:  87 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.29999999999999993 
+
+
+ Max Frames:  110 
+ frame index:  88 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.19999999999999996 
+
+
+ Max Frames:  110 
+ frame index:  89 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.09999999999999998 
+
+
+ Max Frames:  110 
+ frame index:  90 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  1.0 
+
+
+ Max Frames:  110 
+ frame index:  91 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.95 
+
+
+ Max Frames:  110 
+ frame index:  92 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.9 
+
+
+ Max Frames:  110 
+ frame index:  93 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.85 
+
+
+ Max Frames:  110 
+ frame index:  94 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.8 
+
+
+ Max Frames:  110 
+ frame index:  95 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.75 
+
+
+ Max Frames:  110 
+ frame index:  96 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.7 
+
+
+ Max Frames:  110 
+ frame index:  97 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.6499999999999999 
+
+
+ Max Frames:  110 
+ frame index:  98 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.6 
+
+
+ Max Frames:  110 
+ frame index:  99 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.55 
+
+
+ Max Frames:  110 
+ frame index:  100 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.5 
+
+
+ Max Frames:  110 
+ frame index:  101 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.44999999999999996 
+
+
+ Max Frames:  110 
+ frame index:  102 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.3999999999999999 
+
+
+ Max Frames:  110 
+ frame index:  103 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.35 
+
+
+ Max Frames:  110 
+ frame index:  104 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.29999999999999993 
+
+
+ Max Frames:  110 
+ frame index:  105 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.25 
+
+
+ Max Frames:  110 
+ frame index:  106 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.19999999999999996 
+
+
+ Max Frames:  110 
+ frame index:  107 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.1499999999999999 
+
+
+ Max Frames:  110 
+ frame index:  108 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.09999999999999998 
+
+
+ Max Frames:  110 
+ frame index:  109 
+ Current Prompt:   
+ Next Prompt:   
+ Strength :  0.04999999999999993 
+
+[AnimateDiffEvo] - [0;32mINFO[0m - Sliding context window activated - latents passed in (110) greater than context_length 16.
+[AnimateDiffEvo] - [0;32mINFO[0m - Using motion module mm_sd_v15_v2.ckpt version v2.
+Requested to load BaseModel
+Requested to load AnimateDiffModel
+Loading 2 new models
+100%|██████████████████████████████████████████████████████████████████████| 8/8 [55:21<00:00, 414.04s/it]100%|██████████████████████████████████████████████████████████████████████| 8/8 [55:21<00:00, 415.23s/it]
+Global Step: 274189
+Using split attention in VAE
+Working with z of shape (1, 4, 32, 32) = 4096 dimensions.
+Using split attention in VAE
+Leftover VAE keys ['loss.logvar', 'loss.perceptual_loss.scaling_layer.shift', 'loss.perceptual_loss.scaling_layer.scale', 'loss.perceptual_loss.net.slice1.0.weight', 'loss.perceptual_loss.net.slice1.0.bias', 'loss.perceptual_loss.net.slice1.2.weight', 'loss.perceptual_loss.net.slice1.2.bias', 'loss.perceptual_loss.net.slice2.5.weight', 'loss.perceptual_loss.net.slice2.5.bias', 'loss.perceptual_loss.net.slice2.7.weight', 'loss.perceptual_loss.net.slice2.7.bias', 'loss.perceptual_loss.net.slice3.10.weight', 'loss.perceptual_loss.net.slice3.10.bias', 'loss.perceptual_loss.net.slice3.12.weight', 'loss.perceptual_loss.net.slice3.12.bias', 'loss.perceptual_loss.net.slice3.14.weight', 'loss.perceptual_loss.net.slice3.14.bias', 'loss.perceptual_loss.net.slice4.17.weight', 'loss.perceptual_loss.net.slice4.17.bias', 'loss.perceptual_loss.net.slice4.19.weight', 'loss.perceptual_loss.net.slice4.19.bias', 'loss.perceptual_loss.net.slice4.21.weight', 'loss.perceptual_loss.net.slice4.21.bias', 'loss.perceptual_loss.net.slice5.24.weight', 'loss.perceptual_loss.net.slice5.24.bias', 'loss.perceptual_loss.net.slice5.26.weight', 'loss.perceptual_loss.net.slice5.26.bias', 'loss.perceptual_loss.net.slice5.28.weight', 'loss.perceptual_loss.net.slice5.28.bias', 'loss.perceptual_loss.lin0.model.1.weight', 'loss.perceptual_loss.lin1.model.1.weight', 'loss.perceptual_loss.lin2.model.1.weight', 'loss.perceptual_loss.lin3.model.1.weight', 'loss.perceptual_loss.lin4.model.1.weight', 'loss.discriminator.main.0.weight', 'loss.discriminator.main.0.bias', 'loss.discriminator.main.2.weight', 'loss.discriminator.main.3.weight', 'loss.discriminator.main.3.bias', 'loss.discriminator.main.3.running_mean', 'loss.discriminator.main.3.running_var', 'loss.discriminator.main.3.num_batches_tracked', 'loss.discriminator.main.5.weight', 'loss.discriminator.main.6.weight', 'loss.discriminator.main.6.bias', 'loss.discriminator.main.6.running_mean', 'loss.discriminator.main.6.running_var', 'loss.discriminator.main.6.num_batches_tracked', 'loss.discriminator.main.8.weight', 'loss.discriminator.main.9.weight', 'loss.discriminator.main.9.bias', 'loss.discriminator.main.9.running_mean', 'loss.discriminator.main.9.running_var', 'loss.discriminator.main.9.num_batches_tracked', 'loss.discriminator.main.11.weight', 'loss.discriminator.main.11.bias']
+Requested to load AutoencoderKL
+Loading 1 new model
+/Users/gygesm/code/ComfyUI/custom_nodes/ComfyUI-VideoHelperSuite/videohelpersuite/nodes.py:70: RuntimeWarning: invalid value encountered in cast
+  return tensor_to_int(tensor, 8).astype(np.uint8)
+Prompt executed in 3486.40 seconds
+got prompt
+Prompt executed in 2.98 seconds
+got prompt
+/Users/gygesm/code/ComfyUI/custom_nodes/ComfyUI-VideoHelperSuite/videohelpersuite/nodes.py:70: RuntimeWarning: invalid value encountered in cast
+  return tensor_to_int(tensor, 8).astype(np.uint8)
+Prompt executed in 2.26 seconds
+
+Stopped server
